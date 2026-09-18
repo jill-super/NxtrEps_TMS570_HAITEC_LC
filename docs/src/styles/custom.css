@@ -1,0 +1,46 @@
+/* Origin badges used across module pages. */
+.origin-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.origin-badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border: 1px solid var(--sl-color-gray-5);
+}
+
+.origin-custom {
+  background: var(--sl-color-green-low);
+  color: var(--sl-color-green-high);
+  border-color: var(--sl-color-green);
+}
+
+.origin-vector {
+  background: var(--sl-color-blue-low);
+  color: var(--sl-color-blue-high);
+  border-color: var(--sl-color-blue);
+}
+
+.origin-ti {
+  background: var(--sl-color-red-low);
+  color: var(--sl-color-red-high);
+  border-color: var(--sl-color-red);
+}
+
+.origin-third-party {
+  background: var(--sl-color-orange-low);
+  color: var(--sl-color-orange-high);
+  border-color: var(--sl-color-orange);
+}
+
+.origin-vector-generated {
+  background: var(--sl-color-purple-low);
+  color: var(--sl-color-purple-high);
+  border-color: var(--sl-color-purple);
+}

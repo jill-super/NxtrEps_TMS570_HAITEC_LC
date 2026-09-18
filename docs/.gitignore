@@ -1,0 +1,7 @@
+# ---> astro
+# build output
+dist/
+# dependencies
+node_modules/
+# logs
+*.log
